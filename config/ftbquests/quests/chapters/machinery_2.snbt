@@ -1,0 +1,89 @@
+{
+	id: "29CEBE7D63FB56CE"
+	group: ""
+	order_index: 8
+	filename: "machinery_2"
+	title: "Machinery #2"
+	icon: "kubejs:2_component"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "620FE79F8D3D0506"
+			tasks: [{
+				id: "05F074785E4102E9"
+				type: "item"
+				item: "kubejs:2_component"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			id: "17B690B61096BA97"
+			tasks: [{
+				id: "5F712F1847FBB063"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "3A45326291501EC4"
+			tasks: [{
+				id: "31BFF7F0614D2BA9"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "505395B3DCA8D245"
+			tasks: [{
+				id: "2C0E5458B2377F1F"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "5F20994BCDA1A06C"
+			tasks: [{
+				id: "1BFFC062D2320686"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			id: "759851B39DF0B0FB"
+			tasks: [{
+				id: "03A61502177641FF"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Crucible?"
+			id: "6AA6A574EB4FF551"
+			tasks: [{
+				id: "1B06D571AD5F45BD"
+				type: "item"
+				item: "mekanism:superheating_element"
+			}]
+			rewards: [{
+				id: "194B159AA84BABE6"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

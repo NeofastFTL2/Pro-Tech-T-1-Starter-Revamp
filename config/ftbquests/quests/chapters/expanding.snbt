@@ -1,0 +1,83 @@
+{
+	id: "37DF0E1EFB427C39"
+	group: ""
+	order_index: 12
+	filename: "expanding"
+	title: "Expanding?!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "0F722D287AD283B4"
+			tasks: [{
+				id: "7B050DD640D8747E"
+				type: "item"
+				item: "minecraft:white_concrete"
+				count: 16L
+			}]
+			rewards: [{
+				id: "33B74F2BC3826ABB"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "What the flux?"
+			x: 0.0d
+			y: -2.0d
+			id: "2D532781E9E19A71"
+			tasks: [
+				{
+					id: "58DCB3D67DAD39A9"
+					type: "item"
+					item: "fluxnetworks:flux_controller"
+				}
+				{
+					id: "0DC6E4FBA059A5C1"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+					count: 4L
+				}
+				{
+					id: "771015AFF5F7BEE2"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+					count: 4L
+				}
+				{
+					id: "7CC3D5565FC4D9FD"
+					type: "item"
+					item: "fluxnetworks:basic_flux_storage"
+					count: 4L
+				}
+				{
+					id: "25AA8F1E4CA97ADF"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 64L
+				}
+				{
+					id: "24FF1917474D73DF"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+					count: 10L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

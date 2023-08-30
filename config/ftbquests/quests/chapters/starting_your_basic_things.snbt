@@ -1,0 +1,92 @@
+{
+	id: "5FE1A50CA974161A"
+	group: ""
+	order_index: 1
+	filename: "starting_your_basic_things"
+	title: "Starting your basic things!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Chest 4 Saplings!?"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Storage is number one!"
+			id: "50FAF7488B47BE28"
+			tasks: [{
+				id: "3849877AEB280A8E"
+				type: "item"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6144E9964F31EB87"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+				{
+					id: "70B5C9697CFDFD36"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			title: "Crafting Station Runway 4"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "You need to eventually craft!"
+			dependencies: ["50FAF7488B47BE28"]
+			id: "6A9D604838A3D72E"
+			tasks: [{
+				id: "10A7D3D8BDE9A438"
+				type: "item"
+				title: "Any #tconstruct:tables"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tables"
+					}
+				}
+			}]
+			rewards: [{
+				id: "447430EDF89A5E05"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Mining Dimension, FREE ORES!"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "A free pickaxe withit? WITH NETHERITE?!"
+			dependencies: ["6A9D604838A3D72E"]
+			id: "02FB681266659A5F"
+			tasks: [{
+				id: "52C3EB7CF6B6D4D0"
+				type: "item"
+				item: "mining_dimension:teleporter"
+			}]
+			rewards: [{
+				id: "3761586E4095D98B"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

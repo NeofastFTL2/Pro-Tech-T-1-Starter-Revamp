@@ -1,0 +1,181 @@
+{
+	id: "05E64C9815AA76AD"
+	group: ""
+	order_index: 3
+	filename: "botany_pots_tiers_unlocking"
+	title: "Mod Unlocking!"
+	icon: "thermal:enderium_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Unlock Botany Pots!"
+			icon: "botanypotstiers:elite_black_concrete_botany_pot"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Get a lot of seeds planted and harvested!"
+			id: "346D6345A1681398"
+			tasks: [{
+				id: "1834A4A40922DF91"
+				type: "item"
+				item: "kubejs:6_hay_bale"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "543D9751082477F7"
+				type: "command"
+				title: "Unlock it!"
+				icon: "minecraft:lever"
+				command: "/gamestage add @r botany_pots_stage"
+				player_command: true
+			}]
+		}
+		{
+			title: "Unlock Create!"
+			icon: "create:crushing_wheel"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Get your create running and up again!"
+			id: "393D660E8BDC697A"
+			tasks: [{
+				id: "1678FDC17C570170"
+				type: "item"
+				item: "compressium:andesite_6"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0341650EA7DF36E8"
+				type: "command"
+				title: "Unlock it!"
+				icon: "minecraft:lever"
+				command: "/gamestage add @r create_stage"
+				player_command: true
+			}]
+		}
+		{
+			title: "Unlock Mystical Agriculture!"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Lets produce those essences!"
+			id: "701C6FDCEAE28548"
+			tasks: [{
+				id: "1E3FDB36FB0897E4"
+				type: "item"
+				item: "compressium:dirt_6"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "16E12683F1750AE4"
+				type: "command"
+				title: "Unlock it!"
+				icon: "minecraft:lever"
+				command: "/phase grant @r m_a_seeds"
+				player_command: true
+			}]
+		}
+		{
+			title: "Unlock Hostile Neural Networks!"
+			x: -0.5d
+			y: -4.0d
+			subtitle: "Get your hostile neural networks running and up again!"
+			id: "2F629C4F3091E5E3"
+			tasks: [{
+				id: "7011B979AB08A1BB"
+				type: "item"
+				item: "kubejs:6_bone_block"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "52F6937C4F139A28"
+				type: "command"
+				title: "Unlock it!"
+				icon: "minecraft:lever"
+				command: "/gamestage add @r hostilenetworks_stage"
+				player_command: true
+			}]
+		}
+		{
+			title: "Better andesite obtaining?!"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Use the pool and a alchemy catalyst to transform your stones into stonks!"
+			description: ["And also deconstruct your pipe wrench. Maybe it will help..."]
+			id: "04B8B4551AF2965A"
+			tasks: [
+				{
+					id: "7A3E91B648800AAF"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "498C073415EC7944"
+					type: "item"
+					item: "botania:alchemy_catalyst"
+				}
+			]
+			rewards: [{
+				id: "0F32ADB483BB11EB"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 4
+			}]
+		}
+		{
+			title: "Unlock ProjectE"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Get projecte at your fingertips!"
+			id: "2DB15D510AA7BA47"
+			tasks: [{
+				id: "0336C8F1062D238A"
+				type: "item"
+				item: "compressium:coal_9"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5AD5C5C8FCACA717"
+				type: "command"
+				title: "Unlock it!"
+				icon: "minecraft:lever"
+				command: "/gamestage add @r projecte_stage"
+				player_command: true
+			}]
+		}
+		{
+			title: "Unlock Extended Exchange"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Get Extended Exchange at your power!"
+			id: "0F8CACCBC219AF30"
+			tasks: [{
+				id: "29691BA0B56285B9"
+				type: "item"
+				item: "compressium:stone_9"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62ABF7BAD6630F02"
+				type: "command"
+				title: "Unlock it!"
+				icon: "minecraft:lever"
+				command: "/gamestage add @r extendedexchange_stage"
+				player_command: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

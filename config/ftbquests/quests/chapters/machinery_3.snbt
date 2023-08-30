@@ -1,0 +1,49 @@
+{
+	id: "7B12383AC4C4D1BB"
+	group: ""
+	order_index: 9
+	filename: "machinery_3"
+	title: "Machinery #3"
+	icon: "kubejs:3_component"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "388F2F3D40C8CC2E"
+			tasks: [{
+				id: "597CF818378A4737"
+				type: "item"
+				item: "rftoolsdim:dimension_builder"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "1136905F9739504C"
+			tasks: [{
+				id: "6106B1FC4AC57215"
+				type: "item"
+				item: "rftoolsdim:dimension_editor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "2C5D63C894D68CCA"
+			tasks: [{
+				id: "16DCFA96365A4B03"
+				type: "item"
+				item: "kubejs:3_component"
+			}]
+			rewards: [{
+				id: "21D58842A97966AA"
+				type: "item"
+				item: "kubejs:1_component"
+				random_bonus: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,115 @@
+{
+	id: "4206058D635ABEB6"
+	group: ""
+	order_index: 10
+	filename: "machinery_4"
+	title: "Machinery #4"
+	icon: "kubejs:4_component"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "706F25DA06FED471"
+			tasks: [{
+				id: "1F2D02299C6A1C66"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4ECC0AEA3FF7F69C"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			subtitle: "You need it to make the machine frame pity!"
+			id: "38016266BCCECA16"
+			tasks: [{
+				id: "5782BC1A67E7CD17"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3D36CE7D186AF046"
+				type: "item"
+				item: "thermal:invar_ingot"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			id: "3499945A4DB03E4E"
+			tasks: [{
+				id: "77711C661E274B50"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "724069989CEF8FC8"
+			tasks: [{
+				id: "698DC96CB8189793"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "3C91377FB31AD772"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "26001FB781349FEA"
+			tasks: [{
+				id: "47D87CAC53443F2C"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			id: "60D82C1DEBD754C5"
+			tasks: [{
+				id: "502BCB5A65A64721"
+				type: "item"
+				item: "kubejs:4_component"
+			}]
+			rewards: [
+				{
+					id: "20709D7152BC8D86"
+					type: "item"
+					item: "mekanism:basic_tier_installer"
+				}
+				{
+					id: "316102400FC7B4E0"
+					type: "item"
+					item: "mekanism:advanced_tier_installer"
+				}
+				{
+					id: "446F1867E7FDC8B7"
+					type: "item"
+					item: "mekanism:elite_tier_installer"
+				}
+				{
+					id: "5010629896D46D90"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

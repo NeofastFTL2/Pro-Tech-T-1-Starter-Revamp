@@ -1,0 +1,74 @@
+{
+	id: "6E134ABE6AF0AEEE"
+	group: ""
+	order_index: 7
+	filename: "machinery_1"
+	title: "Machinery #1"
+	icon: "kubejs:1_component"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "71F55CF440973807"
+			tasks: [{
+				id: "064634B5A355B85F"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "4BBE46B4FA2B5CC6"
+			tasks: [{
+				id: "78E72B374CF21B01"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "2F62196D2FFCD59C"
+			tasks: [{
+				id: "6066BA074F0C6EF1"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "3799F46A6FBCFDCF"
+			tasks: [{
+				id: "47C53850EF1FED8C"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "5424B0005520F758"
+			tasks: [{
+				id: "414B9145FE799347"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "For the basic machines"
+			id: "44CD5C4851CB32F0"
+			tasks: [{
+				id: "026757C6B5BB2FF8"
+				type: "item"
+				item: "kubejs:1_component"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

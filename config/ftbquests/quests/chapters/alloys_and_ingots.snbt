@@ -1,0 +1,143 @@
+{
+	id: "17A3C8AA8C903F51"
+	group: ""
+	order_index: 6
+	filename: "alloys_and_ingots"
+	title: "Alloys and Ingots!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Nickel + Iron"
+			x: 0.0d
+			y: 0.0d
+			id: "0AE44C7E57719108"
+			tasks: [{
+				id: "1343C80A8653E7BC"
+				type: "item"
+				item: "thermal:invar_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "28DC78A8036F8606"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			title: "Silver + Gold"
+			x: 0.0d
+			y: 3.0d
+			id: "33BABA99409714EB"
+			tasks: [{
+				id: "43F254AA4764C5FC"
+				type: "item"
+				item: "thermal:electrum_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1B077B34E68D7E38"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			title: "Copper + Nickel"
+			x: 0.0d
+			y: -3.0d
+			id: "3E1E7B7654D389A7"
+			tasks: [{
+				id: "568449D0A3DF21E4"
+				type: "item"
+				item: "thermal:constantan_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7CF2721D4798A55D"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "235B914DA0FC8852"
+			tasks: [{
+				id: "155B3C912A1830B8"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0622979E02BAA7F4"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "0458C28485EAFAF3"
+			tasks: [{
+				id: "2721EB73913F8C72"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0551A4C4A8AFBED1"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "27284E824C3B9122"
+			tasks: [{
+				id: "2CD26220B7AA4AF9"
+				type: "item"
+				item: "kubejs:brassmium_ingot"
+				count: 4L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "12F386F62AB53AF9"
+			tasks: [{
+				id: "2B824E1D3382E4D1"
+				type: "item"
+				item: "kubejs:intrum_ingot"
+				count: 4L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "64A969DEB2BA47F3"
+			tasks: [{
+				id: "5D0B1F9BA0845C77"
+				type: "item"
+				item: "kubejs:bronzar_ingot"
+				count: 4L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "5A37B1361A1433DE"
+			tasks: [{
+				id: "1B669F3CB19E230A"
+				type: "item"
+				item: "alltheores:enderium_ingot"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

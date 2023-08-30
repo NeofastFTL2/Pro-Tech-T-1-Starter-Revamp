@@ -1,0 +1,2 @@
+#52B53D minecraft:air
+#840F59 minecraft:bedrock

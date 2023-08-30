@@ -1,0 +1,111 @@
+{
+	id: "4494E09EA586FBBD"
+	group: ""
+	order_index: 5
+	filename: "ores_you_need_them_alot"
+	title: "ORES, you need them alot!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "62FB196ED7CB6512"
+			tasks: [{
+				id: "331013F9D5C45BDC"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 9L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "0C6909FF2437EA9B"
+			tasks: [{
+				id: "6245A475052277D3"
+				type: "item"
+				item: "minecraft:iron_block"
+				count: 9L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "487106C926BA35D8"
+			tasks: [{
+				id: "74EB1018675B0A2D"
+				type: "item"
+				item: "mekanism:block_osmium"
+				count: 9L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "0C5983371E48B4CB"
+			tasks: [{
+				id: "050A503C5F393E14"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 9L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "50240C09C29EDDDE"
+			tasks: [{
+				id: "3831BFF986FDF9AB"
+				type: "item"
+				item: "mekanism:block_tin"
+				count: 9L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "09131B3859C9EDE6"
+			tasks: [{
+				id: "02A0536B9409FE3B"
+				type: "item"
+				item: "minecraft:copper_block"
+				count: 9L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "099795AD957C2F74"
+			tasks: [{
+				id: "5FB8D0EDF6E301D9"
+				type: "item"
+				item: "thermal:silver_block"
+				count: 9L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "1ECF7A17E4E4E18E"
+			tasks: [{
+				id: "34814BDFE71476E4"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 9L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "64BEC24AD30B18C0"
+			tasks: [{
+				id: "0DA12F8671F3C0C6"
+				type: "item"
+				item: "thermal:nickel_block"
+				count: 9L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

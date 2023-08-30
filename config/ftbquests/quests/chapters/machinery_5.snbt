@@ -1,0 +1,90 @@
+{
+	id: "6A639B6A7102E237"
+	group: ""
+	order_index: 11
+	filename: "machinery_5"
+	title: "Machinery #5"
+	icon: "kubejs:5_component"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "0C7A97908644E36F"
+			tasks: [{
+				id: "48103FA4EC2AD2DB"
+				type: "item"
+				item: "kubejs:5_component"
+			}]
+			rewards: [{
+				id: "5529B8DD3F0F1702"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "6019555BDBB662AA"
+			tasks: [{
+				id: "336C5AA389B6C464"
+				type: "item"
+				item: "ae2:calculation_processor_press"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "2DC820250A70EEE0"
+			tasks: [{
+				id: "61AB6C9B7E18ED71"
+				type: "item"
+				item: "ae2:inscriber"
+				count: 4L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "08A088D64F3527B1"
+			tasks: [{
+				id: "52D2ACA278E0FD32"
+				type: "item"
+				item: "ae2:logic_processor_press"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			id: "21FD3A588318AB94"
+			tasks: [{
+				id: "5D4CD8E53A449641"
+				type: "item"
+				item: "ae2:engineering_processor_press"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "55B0EE0F826D622C"
+			tasks: [{
+				id: "548D068042D9830F"
+				type: "item"
+				item: "ae2:silicon_press"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			id: "4FC5BE4F84F75FB8"
+			tasks: [{
+				id: "62066253677F957D"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

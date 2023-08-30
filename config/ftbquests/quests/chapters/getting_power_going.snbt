@@ -1,0 +1,207 @@
+{
+	id: "3D5205AEE0AC79D3"
+	group: ""
+	order_index: 4
+	filename: "getting_power_going"
+	title: "Getting power going!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["63D5DAE31A4BBD23"]
+			id: "72C5F4F678D99A04"
+			tasks: [{
+				id: "628A0C75500D1144"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [{
+				id: "7B6604F91CC17A30"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["72C5F4F678D99A04"]
+			id: "639185E415E8B101"
+			tasks: [{
+				id: "25CEDF8221C9CE1C"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "63D5DAE31A4BBD23"
+			tasks: [{
+				id: "1C8E2DB6C644F9D7"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "5A6C65366ECC3F89"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["47D6EE34F12E33D2"]
+			id: "4ED2311308D00355"
+			tasks: [{
+				id: "36A0BE299AE09C1F"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			rewards: [{
+				id: "3A03275B49199D91"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["4E082A3EE1231595"]
+			id: "47D6EE34F12E33D2"
+			tasks: [{
+				id: "62743DFCC6112A4C"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 64L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			id: "4E082A3EE1231595"
+			tasks: [{
+				id: "323EA84E75090586"
+				type: "item"
+				item: "exnihilosequentia:fired_crucible"
+			}]
+		}
+		{
+			title: "This has nothing to do with power!"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "U need it to solidify also redstone!"
+			id: "6916EDA6C06234A2"
+			tasks: [{
+				id: "038B4C1D7918EB95"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "6BABFE4EB6C3FA50"
+				type: "item"
+				item: "ae2:entropy_manipulator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["6916EDA6C06234A2"]
+			id: "415ECD787BFE3050"
+			tasks: [{
+				id: "79F61790605D2FD3"
+				type: "item"
+				item: "minecraft:ice"
+				count: 64L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["415ECD787BFE3050"]
+			id: "62A4BDE562D413EA"
+			tasks: [{
+				id: "54D358BC04033209"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			id: "7D0D4B32D408E247"
+			tasks: [{
+				id: "22F311262319A28E"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "5B9105C2AA8262CC"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["7D0D4B32D408E247"]
+			id: "14650D6D332B5EB1"
+			tasks: [{
+				id: "67A2AF08AE0DBFB4"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "2E24C8D1309CFDA9"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			dependencies: ["14650D6D332B5EB1"]
+			id: "3672327315931BF1"
+			tasks: [{
+				id: "75806CBB9DCE4AF6"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "07FE16DA7C2AF7E9"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			id: "16F78A42ED444CBE"
+			tasks: [{
+				id: "4F0E16FCA8EC4181"
+				type: "item"
+				item: "thermal:blizz_rod"
+			}]
+			rewards: [{
+				id: "37007EE0DAC0E655"
+				type: "item"
+				item: "thermal:blizz_powder"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			id: "5ECE925495B45892"
+			tasks: [{
+				id: "6283BF1715526928"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
